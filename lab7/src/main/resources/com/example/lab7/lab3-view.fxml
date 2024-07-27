@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab7.Lab3Controller">
+   <children>
+      <Button fx:id="executeBtn" layoutX="529.0" layoutY="360.0" mnemonicParsing="false" text="Execute" />
+      <ChoiceBox fx:id="exampleSelection" layoutX="34.0" layoutY="70.0" prefWidth="150.0" />
+      <TextArea fx:id="dataInput" editable="false" layoutX="34.0" layoutY="158.0" prefHeight="174.0" prefWidth="296.0" />
+      <TextArea fx:id="dataOutput" editable="false" layoutX="371.0" layoutY="158.0" prefHeight="174.0" prefWidth="196.0" />
+      <Text layoutX="34.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Example input" wrappingWidth="257.055908203125" />
+      <Text layoutX="371.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Example output" wrappingWidth="133.8558349609375" />
+      <Text layoutX="254.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Laboratory task 3" />
+      <Text layoutX="34.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Example choice" />
+   </children>
+</AnchorPane>

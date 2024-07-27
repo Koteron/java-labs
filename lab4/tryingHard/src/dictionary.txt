@@ -1,0 +1,6 @@
+company|компания
+people|люди
+company people|компания людей
+companies people|компании людей
+companies of people fly|компании людей летят
+fill|заполнять
